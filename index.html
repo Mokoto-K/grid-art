@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      gap: 9px;
+      background-color: #000;
+      
+  
+    }
+
+    .big-blue{
+      height: 414px;
+      width: 320px;
+      background-color:#004592;
+      
+    }
+
+    .big-white {
+      background-color:#F0F1EC;
+      grid-column: span 3;
+      
+    }
+
+    .second-white{
+      background-color:#F0F1EC;
+      width: 320px;
+      height: 320px;
+      grid-row-start: 2;
+      grid-row-end: 4
+    }
+
+    .third-white{
+      background-color:#F0F1EC;
+      width: 360px;
+      height: 320px;
+      grid-row-start: 2;
+      grid-row-end: 4
+    }
+
+    .red{ 
+      width: 50px;
+      height: 130px;
+      background-color: #E72F24;
+      grid-column-start: -2
+    }
+
+    .fourth-white {
+        background-color: #F0F1EC;
+        margin-top: 16px;
+        height: 194px;
+        width: 50px;
+        grid-column-start: -2;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    .fifth-white {
+      height: 20px;
+      width: 320px;
+      background-color: #F0F1EC;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start: 1;
+    }
+
+    .yellow {
+      width: 198px;
+      height: 20px;
+      background-color: #F9D01E;
+      grid-row-start: 4
+    }
+
+    .black {
+      width: 153px;
+      height: 20px;
+      background-color: #232629;
+      grid-row-start: 4
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: 
+    Black: #232629
+    
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="big-blue"></div>
+    <div class="big-white"></div>
+    <div class="second-white"></div>
+    <div class="third-white"></div>
+    <div class="red"></div>
+    <div class="fourth-white"></div>
+    <div class="fifth-white"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+  </div>
+</body>
+
+</html>
